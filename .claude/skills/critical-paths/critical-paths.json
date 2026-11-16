@@ -1,0 +1,17 @@
+{
+  "_comment": "Single source for the path matcher. Must equal the pattern column of CODEOWNERS (check with --codeowners). Gitignore-style: a pattern without '/' matches at any depth; '**' crosses directories. Defaults: edit for your project.",
+  "patterns": [
+    "supabase/**/migrations/**",
+    "supabase/**/functions/**",
+    "**/rls/**",
+    "**/auth/**",
+    "workers/**",
+    "packages/contract/**",
+    ".claude/**",
+    ".mcp.json",
+    ".github/workflows/**",
+    "CODEOWNERS",
+    "**/wrangler.*",
+    "vercel.json"
+  ]
+}
